@@ -6,15 +6,17 @@
     <title>Document</title>
   </head>
   <body>
+    <hr />
     <header></header>
     <nav>
       <ul>
-        <li>Home</li>
-        <li>News</li>
-        <li>Weather</li>
-        <li style="float: right">About</li>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Weather</a></li>
+        <li style="float: right"><a href="#about">About</a></li>
       </ul>
     </nav>
+    <hr />
     <main>
       <section class="weather-section">
         <div class="page">
@@ -130,7 +132,117 @@
         </div>
       </section>
       <hr />
+      <section class="news-section">
+        <div class="page">
+          <h1>LATEST NEWS</h1>
+          <div class="archive">
+            <article class="article">
+              <img
+                id="header-img"
+                src="https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg"
+                alt="spring"
+                height="400"
+              />
+              <h2>
+                <a id="header-article"></a>
+              </h2>
+              <p id="header-desc">Fall is almost here!</p>
+            </article>
+
+            <article class="article">
+              <img
+                id="article-img-1"
+                src="https://www.shutterstock.com/image-photo/playful-tabby-white-cat-running-600nw-2013748748.jpg"
+                alt="Cat running"
+              />
+              <h3>
+                <a id="article-link-1">Fastest car alive.</a>
+              </h3>
+              <p id="article-desc-1">
+                This cat has been recently breaking cat speed records.
+              </p>
+            </article>
+
+            <article class="article">
+              <img
+                id="article-img-1"
+                src="https://unknownworlds.com/_next/image?url=https%3A%2F%2Fd17c72h1ypygg7.cloudfront.net%2Fsn2_community_questions_blog_1536x864_ef32a4a56a.jpg&w=3840&q=75"
+                alt="Subnautica 2 image"
+                height="340"
+              />
+              <h3>
+                <a id="article-link-1">Subnautica 2 leaks</a>
+              </h3>
+              <p id="article-desc-1">
+                Subnautica 2 has been confirmed in development by Unknown
+                Worlds.
+              </p>
+            </article>
+
+            <article class="article">
+              <img
+                id="article-img-1"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/1200px-FullMoon2010.jpg"
+                alt="The moon"
+                height="570"
+                width="600"
+              />
+              <h3>
+                <a id="article-link-1">Sudden explosion on the moon</a>
+              </h3>
+              <p id="article-desc-1">
+                At 12:47pm, there was an explosion on the moon, no one knows
+                what caused it.
+              </p>
+            </article>
+
+            <article class="article">
+              <img
+                id="article-img-1"
+                src="https://static.wikia.nocookie.net/unofficialscpwikibyndyt/images/b/b9/SCP-173.jpg"
+                alt="main article"
+                height="490"
+                width="600"
+              />
+              <h3>
+                <a id="article-link-1">A creature on the loose</a>
+              </h3>
+              <p id="article-desc-1">
+                At 6:23pm, an unknown organization has been sending out warnings
+                about a dangerous creature roaming the streets.
+              </p>
+            </article>
+
+            <article class="article">
+              <img
+                id="article-img-1"
+                src="https://static.wikia.nocookie.net/villains/images/d/d5/Sun2.jpg"
+                alt="main article"
+                height="453"
+                width="640"
+              />
+              <h3>
+                <a id="article-link-1">The sun turned red</a>
+              </h3>
+              <p id="article-desc-1">
+                Stay inside at all costs...- Come outside, it is safe.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer>
+      <hr />
+      &copy; <span id="year"></span> | Mason Moore |
+      <a
+        href="https://tooeletech.edu/"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Tooele Technical College</a
+      >
+      <br />
+      last updated: <span id="updated">8/13/2024</span>
+    </footer>
   </body>
 </html>
