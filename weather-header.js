@@ -26,3 +26,4 @@ fetch(URL)
     var windChill = Math.round(windChill);
     document.getElementById("current-windChill").innerHTML = windChill;
   });
+//
